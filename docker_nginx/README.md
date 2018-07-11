@@ -28,3 +28,7 @@ docker images // after clean nginx imgae
 ### new knowledge
 
 - docker login 시 이메일이 아닌 username으로 로그인 하자.
+- `-v` folder mount
+- `-d` run background
+- `-p` port binding
+- `--name` set name
