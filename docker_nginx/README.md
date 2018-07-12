@@ -1,6 +1,9 @@
 # Docker nginx
 
-### steps
+
+## run by command line
+
+### run nginx steps
 
 ```bash
 docker login
@@ -29,6 +32,13 @@ docker ps // after nginx clean
 docker images // before clean nginx imgae
 docker rmi nginx
 docker images // after clean nginx imgae
+```
+
+## build Dockerfile, run use my image
+
+```bash
+docker build -t docker_nginx_img(tag) .(dir)
+docker run -d -p 80:80 --name my-nginx-container docker_nginx_img
 ```
 
 ### new knowledge
