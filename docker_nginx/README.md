@@ -53,3 +53,4 @@ docker run -d -p 80:80 --name my-nginx-container docker_nginx_img
 - nginx 의 `-g` flag는 debugging symbols() 를 포함한다고한다.
 - nginx 기본 static file path : `/usr/share/nginx/html`
 - nginx 기본 conf file : `/etc/nginx/nginx.conf`
+- docker-compose 의 --volume=현재경로 : 컨테이너 경로로 마운트 (공유폴더)
